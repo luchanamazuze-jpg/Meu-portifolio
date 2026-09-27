@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poemas</title>
+    <style> 
+        .i{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff8fb;
+    color: #333;
+}
+
+
+/* MENU */
+
+header {
+    background-color: #8e4585;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* INÍCIO */
+
+.inicio {
+    min-height: 550px;
+    background-color: #f7dce9;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 8%;
+}
+
+.texto-inicio {
+    max-width: 550px;
+}
+
+.texto-inicio h1 {
+    font-size: 50px;
+    color: #702963;
+    margin-bottom: 20px;
+}
+
+.texto-inicio p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: #8e4585;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+
+/* POEMAS */
+
+#poemas {
+    padding: 70px 8%;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #702963;
+    margin-bottom: 45px;
+}
+
+.poemas-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.poema {
+    width: 30%;
+    background-color: #fff0f6;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px #ddd;
+}
+
+
+.poema h3 {
+    color: #8e4585;
+    margin: 15px;
+}
+
+.poema p {
+    line-height: 1.8;}
+
+
+/* SOBRE MIM */
+
+#sobre {
+    padding: 70px 8%;
+    background-color: white;
+}
+
+.sobre-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.sobre-container p {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+/* CONTACTO */
+
+#contacto {
+    padding: 70px 8%;
+    background-color: #f7dce9;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    padding: 15px;
+    background-color: #8e4585;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* RODAPÉ */
+
+footer {
+    background-color: #702963;
+    color: white;
+    text-align: center;
+    padding: 20px;
+} 
+</style>
+</head>
+<body>
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <div class="logo">Poemas da Luchana</div>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#poemas">Poemas</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- INÍCIO -->
+    <section id="inicio" class="inicio">
+
+        <div class="texto-inicio">
+            <h1>Palavras que vêm do coração</h1>
+
+            <p>
+                Bem-vindo ao meu espaço de poemas,
+                onde cada palavra conta uma história.
+            </p>
+
+            <a href="#poemas" class="botao">Ler Poemas</a>
+        </div>
+
+       
+    </section>
+
+
+    <!-- POEMAS -->
+    <section id="poemas">
+
+        <h2>Meus Poemas</h2>
+
+        <div class="poemas-container">
+
+            <div class="poema">
+               
+
+                <h3>Meu Caminho</h3>
+
+                <p>
+                    Caminho devagar,<br>
+                    mas nunca deixo de sonhar.<br>
+                    Cada passo que dou,<br>
+                    leva-me para onde o coração chamou.
+                </p>
+            </div>
+
+
+            <div class="poema">
+               
+
+                <h3>Sonhos</h3>
+
+                <p>
+                    Tenho sonhos no olhar,<br>
+                    esperança para continuar.<br>
+                    Mesmo quando a noite vem,<br>
+                    acredito que o amanhã será também.
+                </p>
+            </div>
+
+
+            <div class="poema">
+               
+                <h3>Minha Terra</h3>
+
+                <p>
+                    Terra de cores e tradição,<br>
+                    onde vive a minha inspiração.<br>
+                    Cultura que mora em mim,<br>
+                    uma história que não tem fim.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- SOBRE MIM -->
+    <section id="sobre">
+
+        <h2>Sobre Mim</h2>
+
+        <div class="sobre-container">
+
+
+            <p>
+                Sou uma pessoa apaixonada pela escrita,
+                pela poesia e pela cultura. Através dos meus
+                poemas procuro transformar sentimentos,
+                sonhos e experiências em palavras.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+
+        <h2>Contacto</h2>
+
+        <form>
+
+            <input type="text" placeholder="Seu nome">
+
+            <input type="email" placeholder="Seu email">
+
+            <textarea placeholder="Escreva sua mensagem"></textarea>
+
+            <button type="submit">Enviar Mensagem</button>
+
+        </form>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2026 Poemas da Luchana | Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
